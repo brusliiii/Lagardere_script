@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['/Users/brusli/coding/goodlist_script/Стокова Разписка скртип/desktop_app.py'],
+    ['desktop_app.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -32,7 +32,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['/Users/brusli/coding/goodlist_script/Стокова Разписка скртип/icon.icns'],
+    icon=['icon.icns'],
 )
 coll = COLLECT(
     exe,
@@ -46,6 +46,6 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='Lagardere.app',
-    icon='/Users/brusli/coding/goodlist_script/Стокова Разписка скртип/icon.icns',
+    icon='icon.icns',
     bundle_identifier=None,
 )

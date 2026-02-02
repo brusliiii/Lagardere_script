@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/brusli/coding/goodlist_script/Стокова Разписка скртип/.venv"
+set -gx VIRTUAL_ENV "/Users/brusli/coding/goodlist_script/stokova_script/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/brusli/coding/goodlist_script/Стокова Разписка скртип/.venv/bin/python" "$0" "$@"
-' '''
+#!/Users/brusli/coding/goodlist_script/stokova_script/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

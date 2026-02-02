@@ -1,5 +1,4 @@
-('/Users/brusli/coding/goodlist_script/Стокова Разписка '
- 'скртип/build/Lagardere/Lagardere.pkg',
+('/Users/brusli/coding/goodlist_script/stokova_script/build/Lagardere/Lagardere.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -11,8 +10,7 @@
   'SYMLINK': False},
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/build/Lagardere/PYZ-00.pyz',
+   '/Users/brusli/coding/goodlist_script/stokova_script/build/Lagardere/PYZ-00.pyz',
    'PYZ'),
   ('lib-dynload/_struct.cpython-39-darwin.so',
    '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_struct.cpython-39-darwin.so',
@@ -21,40 +19,31 @@
    '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/zlib.cpython-39-darwin.so',
    'EXTENSION'),
   ('struct',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/build/Lagardere/localpycs/struct.pyc',
+   '/Users/brusli/coding/goodlist_script/stokova_script/build/Lagardere/localpycs/struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/build/Lagardere/localpycs/pyimod01_archive.pyc',
+   '/Users/brusli/coding/goodlist_script/stokova_script/build/Lagardere/localpycs/pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/build/Lagardere/localpycs/pyimod02_importers.pyc',
+   '/Users/brusli/coding/goodlist_script/stokova_script/build/Lagardere/localpycs/pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/build/Lagardere/localpycs/pyimod03_ctypes.pyc',
+   '/Users/brusli/coding/goodlist_script/stokova_script/build/Lagardere/localpycs/pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/.venv/lib/python3.9/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py',
+   '/Users/brusli/coding/goodlist_script/stokova_script/.venv/lib/python3.9/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('pyi_rth_pyqt6',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pyqt6.py',
+   '/Users/brusli/coding/goodlist_script/stokova_script/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pyqt6.py',
    'PYSOURCE'),
   ('pyi_rth_pkgutil',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py',
+   '/Users/brusli/coding/goodlist_script/stokova_script/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py',
    'PYSOURCE'),
   ('pyi_rth_inspect',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py',
+   '/Users/brusli/coding/goodlist_script/stokova_script/.venv/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py',
    'PYSOURCE'),
   ('desktop_app',
-   '/Users/brusli/coding/goodlist_script/Стокова Разписка '
-   'скртип/desktop_app.py',
+   '/Users/brusli/coding/goodlist_script/stokova_script/desktop_app.py',
    'PYSOURCE')],
  'Python3',
  True,

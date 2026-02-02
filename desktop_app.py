@@ -52,7 +52,7 @@ PRODUCT_ORDER = [
     "07 Riot Capsule Blue cherry burst",
     "08 Riot Capsule Classic tobacoo",
     "09 Riot Capsule Banana Ice",
-    "10 Riot Capsule Lime",
+    "10 Riot capsule Sicilian lemon lime",
     "11 Riot Capsule Strawberry Kiwi Apple",
     "12 Riot Capsule Triple Mint",
 ]
