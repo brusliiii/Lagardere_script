@@ -55,20 +55,22 @@ PRODUCT_ORDER = [
     "10 Riot capsule Sicilian lemon lime",
     "11 Riot Capsule Strawberry Kiwi Apple",
     "12 Riot Capsule Triple Mint",
+    "13 Riot Capsule Guava passion fruit & pineapple",
+    "14 Riot Capsule Watermelon Ice",
 ]
 
 BRAND_BOUNDARIES = {
     "PAZ Berry frost +": "PAZ",
     "V&YOU Boost Max Savage mango": "V&YOU",
     "05 Riot Kit Blueberry sour raspberry": "RIOT Kit",
-    "12 Riot Capsule Triple Mint": "RIOT Capsule",
+    "14 Riot Capsule Watermelon Ice": "RIOT Capsule",
 }
 
 BRAND_PRODUCTS = {
     "PAZ": PRODUCT_ORDER[0:10],
     "V&YOU": PRODUCT_ORDER[10:23],
     "RIOT Kit": PRODUCT_ORDER[23:28],
-    "RIOT Capsule": PRODUCT_ORDER[28:40],
+    "RIOT Capsule": PRODUCT_ORDER[28:42],
 }
 
 
