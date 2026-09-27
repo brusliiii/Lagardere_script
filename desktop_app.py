@@ -70,7 +70,7 @@ BRAND_BOUNDARIES = {
     "PAZ Berry frost +": "PAZ",
     "V&YOU Boost Max Savage mango": "V&YOU",
     "05 ZERO Riot Kit Blueberry Sour Raspberry": "RIOT Kit",
-    "09 ZERO Riot Capsule Banana Ice",: "RIOT Capsule",
+    "09 ZERO Riot Capsule Banana Ice": "RIOT Capsule",
 }
 
 BRAND_PRODUCTS = {
