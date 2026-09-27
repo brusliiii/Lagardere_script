@@ -43,6 +43,7 @@ PRODUCT_ORDER = [
     "03 Riot Kit Mango peach pineapple",
     "04 Riot Kit Grape ice",
     "05 Riot Kit Blueberry sour raspberry",
+    "05 ZERO Riot Kit Blueberry Sour Raspberry",
     "01 Riot Capsule Cherry cola",
     "02 Riot Capsule Pink lemonade",
     "03 Riot Capsule Mango peach pineapple",
@@ -52,18 +53,24 @@ PRODUCT_ORDER = [
     "07 Riot Capsule Blue cherry burst",
     "08 Riot Capsule Classic tobacoo",
     "09 Riot Capsule Banana Ice",
-    "10 Riot capsule Sicilian lemon lime",
+    "10 Riot Capsule Lime",
     "11 Riot Capsule Strawberry Kiwi Apple",
     "12 Riot Capsule Triple Mint",
-    "13 Riot Capsule Guava passion fruit & pineapple",
+    "13 Riot Capsule Guava Passion Fruit",
     "14 Riot Capsule Watermelon Ice",
+    "15 Riot Capsule Strawberry raspberry cherry",
+    "16 Riot Capsule Pineapple ice",
+    "17 Riot Capsule Blackberry Mojito Ice",
+    "18 Riot Capsule Triple Mango Ice",
+    "05 ZERO Riot Capsule Blueberry Sour Raspberry",
+    "09 ZERO Riot Capsule Banana Ice",
 ]
 
 BRAND_BOUNDARIES = {
     "PAZ Berry frost +": "PAZ",
     "V&YOU Boost Max Savage mango": "V&YOU",
-    "05 Riot Kit Blueberry sour raspberry": "RIOT Kit",
-    "14 Riot Capsule Watermelon Ice": "RIOT Capsule",
+    "05 ZERO Riot Kit Blueberry Sour Raspberry",: "RIOT Kit",
+    "09 ZERO Riot Capsule Banana Ice",: "RIOT Capsule",
 }
 
 BRAND_PRODUCTS = {
