@@ -13,6 +13,7 @@ on:
 jobs:
   build-windows:
     runs-on: windows-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,30 +21,26 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pyinstaller pillow
 
       - name: Create icon.ico if missing
-        shell: bash
+        shell: pwsh
         run: |
-          if [ ! -f "icon.ico" ]; then
-            python - <<'PY'
-from PIL import Image
-img = Image.open("icon.png")
-img.save("icon.ico", sizes=[(16,16),(32,32),(48,48),(64,64),(128,128),(256,256)])
-print("Created icon.ico")
-PY
-          fi
+          if (-not (Test-Path "icon.ico")) {
+            python -c "from PIL import Image; img=Image.open('icon.png'); img.save('icon.ico', sizes=[(16,16),(32,32),(48,48),(64,64),(128,128),(256,256)])"
+          }
 
-      - name: Build EXE (onefile)
+      - name: Build EXE
         run: |
-          pyinstaller --noconfirm --clean --windowed --onefile --name "Lagardere" --icon icon.ico desktop_app.py
+          pyinstaller --noconfirm --clean --windowed --onefile --name "Lagardere" --icon "icon.ico" desktop_app.py
 
-      - name: Upload artifact
+      - name: Upload EXE
         uses: actions/upload-artifact@v4
         with:
           name: Lagardere-windows-exe
